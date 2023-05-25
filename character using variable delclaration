@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    char ch='s';
+    char ch1='$';
+    char ch2='39';
+    printf("%c %c %c",ch,ch1,ch2);
+    return 0;
+}
