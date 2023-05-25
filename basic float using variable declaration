@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    float s=77.88;
+    printf("%f\n",s);
+    
+    float h=88.99;
+    printf("%f",h);
+    return 0;
+}
