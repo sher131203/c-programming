@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int person1,person2;
+    printf("height of person1:");
+    scanf("%d",&person1);
+    
+    printf("height of person2:");
+    scanf("%f",&person2);
+    
+    if(person1>person2)
+    {
+        printf("person1 is taller...");
+    }
+    else
+    {
+        printf("person2 is taller...");
+        
+    }
+    return 0
+}
