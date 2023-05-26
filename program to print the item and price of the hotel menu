@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a;
+    printf("Enter the item no:");
+    scanf("%d",&a);
+    
+    if(a==1)   
+    {
+        printf("The item is 'DOSA'\n");
+        printf("The price is:20");
+    }
+    else if(a==2)
+    {
+        printf("The item is 'IDLY'\n");
+        printf("The price is:set 15");
+    }
+    else if(a==5)
+    {
+        printf("The item is 'POORI'\n");
+        printf("The price is:set 30");
+    }
+    else
+    {
+        printf("No item\n");
+        printf("NO price:0");
+    }
+    return 0;
+}
+    
