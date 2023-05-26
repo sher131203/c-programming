@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int cars=17;
+    int r1=243;
+    int r2=136;
+    int r3=567;
+    if(r1%17==0)
+    {
+        printf("first car passes through road1");
+    }
+    else if(r2%17==0)
+    {
+        printf("first car passes through road2");
+    }
+    else if(r3%17==0)
+    {
+        printf("first car passes through road3");
+    }
+    else
+    {
+        printf("no road");
+    }
+    return 0;
+}
