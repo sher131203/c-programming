@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() 
+{
+    int num;
+    printf("enter the amount:");
+    scanf("%d",&num);
+    if(num>1000 && num<5000)   
+    {
+        printf("10%% discount");
+    }
+    else if(num>5000 && num<10000)
+    {
+        printf("25%% discount");
+    }
+    else if(num>10000)
+    {
+        printf("50%% discount");
+    }
+    else
+    {
+        printf("no discount");
+    }
+    return 0;
+}
