@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+ int num=1;
+ switch(num)
+ {
+     case 1:
+     printf("tamil");
+     break;
+     case 2:
+     printf("hindi");
+     break;
+     case 3:
+     printf("english");
+     break;
+     case 4:
+     printf("korean");
+     break;
+     default:
+     printf("please enter the valid number");
+ }
+}
+ 
+ 
