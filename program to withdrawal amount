@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() 
+{
+   float a,b;
+   printf("enter the amount:");
+   scanf("%f",&a);
+   printf("wd amount:");
+   scanf("%f",&b);
+   if(a>b)
+   {
+       printf("withdrawal success");
+   }
+   else
+   {
+       printf("insufficient balance");
+   }
+    return 0;
+}
