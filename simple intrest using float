@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+   float p=500000;
+   float n=84;
+   float r=0.0045;
+   float s=((p*n*r)/100);
+   printf("%.2f",s);
+    return 0;
+}
+ 
+ 
