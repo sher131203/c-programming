@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() 
+{
+    int n=5;
+    char ch='e';
+    for(int i=n; i>=1; i--)
+    {
+        printf("%c",ch);
+        ch--;
+    }
+    return 0;
+}
