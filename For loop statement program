@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+    for(int i=10;i>=0;i=i-2)
+
+    {
+
+    printf("tester....\n");
+
+    }
+
+    return 0;
+
+}
