@@ -1,0 +1,16 @@
+# include<stdio.h>
+int main()
+{
+    int n=763445;
+    int r=0;
+    int count=0;
+    while(n>0)
+    {
+        r=n%10;
+       count++;
+        n=n/10;
+        
+    }
+    printf("%d",count);
+}
+   
