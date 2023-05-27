@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() 
+{
+    int n=4;
+    char a='c';
+    for(int i=n;i>=0;i--)
+    {
+        if(i%2==0)
+        {
+            printf("%c",a);
+            a--;
+            
+        }
+       
+        else
+        {
+            printf("*");
+        }
+    }
+    
+    
+    return 0;
+}
