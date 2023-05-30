@@ -1,0 +1,24 @@
+#include<stdio.h>
+int posnum();
+ int main()
+ {
+     int a=posnum();
+     printf("%d\n",a);
+     return 0;
+     
+ }
+ int posnum() 
+ {
+     int x,y,posnum;
+     printf("Enter two values:");
+     scanf("%d%d",&x,&y);
+     if(x>=0)
+    posnum=x;
+    
+     else if(y>=0)
+     posnum=y;
+    
+     else
+     printf("no positive numbers\n");
+     return posnum;
+ }
