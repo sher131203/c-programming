@@ -1,0 +1,54 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+  int n=12345;
+
+  int even=0;
+
+  int odd=0;
+
+  int evensum=0;
+
+  int oddsum=0;
+
+  int rem=0;
+
+  while(n>0)
+
+  {
+
+    rem=n%10;
+
+    if(rem%2==0)
+
+    {
+
+      evensum=evensum+rem;
+
+      even++;
+
+    }
+
+    else
+
+    {
+
+      oddsum=oddsum+rem;
+
+      odd++;
+
+    }
+
+    n=n/10;
+
+  }
+
+  printf("even:%dodd:%devensum:%doddsum:%d",even,odd,evensum,oddsum);
+
+  return 0;
+
+}
+
